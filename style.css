@@ -237,6 +237,11 @@ a {
     transition: background .4s;
 }
 
+.grid-box:hover,
+.grid-item:hover {
+    background: hsl(229, 27%, 31%);
+}
+
 .grid-item a {
     display: block;
     width: 100%;
@@ -274,6 +279,12 @@ a {
 .light .grid-item {
     background: hsl(227, 47%, 96%);
 }
+
+.light .grid-box:hover,
+.light .grid-item:hover {
+    background: hsl(227, 18%, 85%);
+}
+
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 1024px) {
